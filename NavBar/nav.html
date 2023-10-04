@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navbar</title>
 </head>
 <body>
-    <header<nav>
+    <header>
+      <nav>
         <ul>
           <a href="#">Home</a>
           <a href="#">Link</a>
-          <i class="dropdown">
-            <button class="dropbtn"><a href="#">   </a>dropdown</button>
-            <i class="dropdown-content">
-          <a href="#">disabled</a>
+          <label for="dropdown">dropdown:</label>
+
+          <select name="dropdown" id="dropdown">
+            <option value="">help</option>
+            <option value="">support</option>
+          </select>
+          <button disabled>disabled</button>
+          <input type="text" class="search-box" placeholder="Search">
+          <button>Search</button>
         
-      </nav></header>
+      </nav>
+    </header>
 </body>
 </html>
